@@ -1,0 +1,94 @@
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: 90vw;
+    }
+
+    .section-title h1 {
+        font-size: 28px;
+    }
+
+    .nav-wraper {
+        border: 1px solid orange;
+    }
+
+    nav {
+        width: 90vw;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav > ul, nav > button {
+        display: none;
+    }
+
+    nav a {
+        display: block;
+        justify-self: end;
+    }
+
+    #hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-image {
+        order: 1;
+    }
+
+    .hero-texts {
+        order: 2;
+        text-align: center;
+    }
+
+    .hero-texts h1 {
+        font-size: 32px;
+    }
+
+    #curriculam {
+        padding-bottom: 0;
+    }
+
+    .curriculam-content {
+        grid-template-columns: 1fr;
+    }
+
+    .curriculam-card {
+        margin-bottom: 20px;
+    }
+
+    .curriculam-buttons {
+        display: none;
+    }
+
+    #stories {
+        padding-top: 0;
+    }
+
+    .story-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .story-texts {
+        padding: 5px;
+    }
+
+    .story-title h2{
+        margin: 20px 0;
+    }
+
+    .single-story:nth-of-type(1) {
+        display: none;
+    }
+
+    .date-box {
+        font-size: 12px;
+        top: -20px;
+        padding: 5px;
+    }
+
+    .footer-content {
+        padding: 30px 0;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+}
